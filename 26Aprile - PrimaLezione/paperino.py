@@ -1,4 +1,4 @@
-name = str(input("Come cabbo ti chiami? "))
+name = str(input("Come ti chiami? "))
 if name == "Anna Gaia":
   print("nduja")
   
