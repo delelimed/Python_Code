@@ -1,9 +1,9 @@
 def main():
-name = str(input("Come ti chiami? "))
-if name == "Anna Gaia":
+name = str(input("Come ti chiami? ").lower())
+if name == "anna gaia":
   print("nduja")
   
-elif name == "Elia":
+elif name == "elia":
   print("ragazzo fantastico e tutto")
   
 else:
