@@ -9,5 +9,4 @@ for i in range(len(l)):
     if l[i] < min:
         min = l[i]
         min_id = i
-    print(min)
-    print(min_id)
+print("Nella lista fornita, il numero minore è " + str(min) + ", avente indirizzo " + str(min_id) + "e posizione nell'elenco " + str(min_id+1))
