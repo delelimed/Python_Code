@@ -9,3 +9,4 @@ Insieme dei sorgenti .py riguardo le esercitazioni svolte durante le lezioni, di
 - esempio_MultiVariabile.py: prende in input due interi e ne esegue la divisione;
 
 ## Seconda Lezione - 28 aprile
+- SecondaLezione.py: genera una lista di 10 elementi, prima ne toglie alcuni, poi la rigenera e la inverte
