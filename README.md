@@ -7,3 +7,5 @@ Insieme dei sorgenti .py riguardo le esercitazioni svolte durante le lezioni, di
 ## Prima Lezione - 26 aprile
 - esempio_UnaVariabile.py: semplice programma che prende in input un numero e lo mostra al termine;
 - esempio_MultiVariabile.py: prende in input due interi e ne esegue la divisione;
+
+## Seconda Lezione - 28 aprile
