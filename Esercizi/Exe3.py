@@ -1,3 +1,7 @@
+'''
+Questo programma chiede in input due liste (composte dallo stesso numero di elementi),
+e combina in successione le due liste.
+'''
 NItm = int(input("Da quanti elementi è composta ciascuna delle due liste? "))
 ItmList1 = []
 
@@ -21,7 +25,7 @@ NItm3 = 2 * NItm
 tempy = 0 #controlla il passaggio sincrono tra le due liste ed indexlist
 tempyswitch = 1 #se pari lista uno, se dispari lista 2
 
-while tempy <= NItm:
+while tempy < NItm:
     if tempyswitch % 2 != 0:
         ItmList3.append(ItmList1[tempy])
         tempyswitch += 1
@@ -29,7 +33,7 @@ while tempy <= NItm:
         ItmList3.append(ItmList2[tempy])
         tempyswitch = 1
     tempy += 1
-if tempy > NItm:
+if tempy == NItm:
     print("La lista combinata è la seguente: ")
     print(ItmList3)
 
