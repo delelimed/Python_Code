@@ -9,8 +9,6 @@ ItmList = []
 for i in range(NItm):
     ITM = int(input("Inserisci il numero: "))
     ItmList.append(ITM)
-print("Hai fornito la seguente lista:")
-print(ItmList)
-print("Di seguito trovi la lista inversa: ")
+print("Hai fornito la seguente lista: " + str(ItmList))
 ItmList = ItmList[NItm::-1]
-print(ItmList)
+print("Di seguito trovi la lista inversa: " + str(ItmList))

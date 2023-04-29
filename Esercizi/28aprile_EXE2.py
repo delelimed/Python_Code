@@ -8,8 +8,7 @@ ItmList = []
 for i in range(NItm):
     ITM = int(input("Inserisci il numero: "))
     ItmList.append(ITM)
-print("Hai fornito la seguente lista:")
-print(ItmList)
+print("Hai fornito la seguente lista: " + str(ItmList))
 
 Verifica = int(input("Di quale valore vuoi verificare la presenza nella lista? "))
 

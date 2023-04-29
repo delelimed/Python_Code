@@ -8,8 +8,7 @@ ItmList1 = []
 for i in range(NItm):
     ITM = int(input("Inserisci il numero: "))
     ItmList1.append(ITM)
-print("Hai fornito la seguente lista:")
-print(ItmList1)
+print("Hai fornito la seguente lista: " + str(ItmList1))
 
 ItmList2 = []
 
@@ -17,8 +16,7 @@ print("Ora inserisci gli elementi della seconda lista.")
 for i in range(NItm):
     ITM = int(input("Inserisci il numero: "))
     ItmList2.append(ITM)
-print("Hai fornito la seguente lista:")
-print(ItmList2)
+print("Hai fornito la seguente lista: " + str(ItmList2))
 
 ItmList3 = []
 NItm3 = 2 * NItm
@@ -34,7 +32,6 @@ while tempy < NItm:
         tempyswitch = 1
     tempy += 1
 if tempy == NItm:
-    print("La lista combinata è la seguente: ")
-    print(ItmList3)
+    print("La lista combinata è la seguente: " + str(ItmList3))
 
     
