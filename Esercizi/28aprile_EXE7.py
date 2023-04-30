@@ -17,7 +17,7 @@ for i in range(len(PRENumero)):
 tempy = 0
 #Verifica della leicità dell'operazione
 
-if any(int(num) > B1 for num in Numero):
+if any(int(num) > B1 - 1 for num in Numero):
     VOID = True
 else:
     VOID = False
