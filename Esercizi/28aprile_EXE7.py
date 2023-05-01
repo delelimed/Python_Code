@@ -4,6 +4,9 @@ Come prima cosa converte il numero come intermezzo decimale, poi lo converte nel
 '''
 
 Numero1 = str(input("Inserisci il numero INTERO che vuoi convertire: "))
+if not(Numero1.isnumeric()):
+    print("Devi inserire un numero, COGLIONE!")
+    quit()
 Orig = Numero1
 Numero1lista = []
 Numero1Decimale = 0
