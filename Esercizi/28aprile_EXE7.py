@@ -33,11 +33,12 @@ if VOID == True:
     quit()
 
 #inizio del programma vero e proprio
+#se le due basi coincidono il programma non parte
 if B1 == B2:
     print("La base di partenza è la stessa della base di arrivo... Che cosa vuoi convertire?")
     quit()
 
-
+#effettua, come prima cosa, la conversione in base 10
 if B1 != 10:
     Numero1lista = Numero1lista[len(Numero1lista)::-1]
     for i in Numero1lista:
@@ -45,9 +46,11 @@ if B1 != 10:
 if B1 == 10:
     Numero1Decimale = Orig
 
+#effettua la conversione tra basi numeriche
 while int(Numero1Decimale) // B2 or int(Numero1Decimale) % B2 != 0:
     Numero2 = str(Numero2) + str(int(Numero1Decimale) % B2)
     Numero1Decimale = int(Numero1Decimale) // B2
 
+#inverte il risultato e lo stampa a schermo
 Finale = Numero2[::-1]
 print("Il numero " + str(Numero1) + " in base " + str(B1) + " equivale al numero " + str(Finale) + " convertito in base " + str(B2))
