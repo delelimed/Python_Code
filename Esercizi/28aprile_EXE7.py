@@ -4,6 +4,7 @@ Come prima cosa converte il numero come intermezzo decimale, poi lo converte nel
 '''
 
 Numero1 = str(input("Inserisci il numero INTERO che vuoi convertire: "))
+
 Numero1lista = []
 Numero1Decimale = 0
 Numero2 = " "
@@ -41,8 +42,10 @@ if B1 != 10:
     Numero1lista = Numero1lista[len(Numero1lista)::-1]
     for i in Numero1lista:
         Numero1Decimale += int(i) * (B1) ** Numero1lista.index(i)
+if B1 == 10:
+    Numero1Decimale ==
 
-while Numero1Decimale % B2 != 0 and Numero1Decimale // B2 != 0:
+while Numero1Decimale // B2 != 0:
     Numero2 += str(Numero1Decimale % B2)
     Numero1Decimale = Numero1Decimale // B2
 print(Numero2)
