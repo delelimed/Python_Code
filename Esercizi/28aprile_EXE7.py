@@ -5,7 +5,7 @@ Come prima cosa converte il numero come intermezzo decimale, poi lo converte nel
 
 Numero1 = str(input("Inserisci il numero INTERO che vuoi convertire: "))
 if not(Numero1.isnumeric()):
-    print("Devi inserire un numero, COGLIONE!")
+    print("Devi inserire un numero...")
     quit()
 Orig = Numero1
 Numero1lista = []
@@ -14,7 +14,13 @@ Numero2 = " "
 Numero2lista = []
 
 B1 = int(input("Inserisci la base di partenza: "))
+if not(B1.isnumeric()):
+    print("Devi inserire un numero...")
+    quit()
 B2 = int(input("Inserisci la base di arrivo: "))
+if not(B2.isnumeric()):
+    print("Devi inserire un numero...")
+    quit()
 Finale = " "
 VOID = None
 
