@@ -14,13 +14,7 @@ Numero2 = " "
 Numero2lista = []
 
 B1 = int(input("Inserisci la base di partenza: "))
-if not(B1.isnumeric()):
-    print("Devi inserire un numero...")
-    quit()
 B2 = int(input("Inserisci la base di arrivo: "))
-if not(B2.isnumeric()):
-    print("Devi inserire un numero...")
-    quit()
 Finale = " "
 VOID = None
 
