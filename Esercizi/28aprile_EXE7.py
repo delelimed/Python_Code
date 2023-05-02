@@ -3,15 +3,16 @@ Questo programma prende un numero in ingresso, chiede la base di partenza e lo c
 Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione.
 '''
 
-Numero1 = str(input("Inserisci il numero INTERO che vuoi convertire: "))
+Numero1 = int(input("Inserisci il numero INTERO che vuoi convertire: "))
 if not(Numero1.isnumeric()):
     print("Devi inserire un numero...")
     quit()
+
+Numero1 = str(Numero1)
 Orig = Numero1
 Numero1lista = []
 Numero1Decimale = 0
 Numero2 = " "
-Numero2lista = []
 
 while True:
     try:
