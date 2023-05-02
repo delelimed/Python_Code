@@ -2,12 +2,13 @@
 Questo programma prende un numero in ingresso, chiede la base di partenza e lo converte in una base di arrivo.
 Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione.
 '''
-
-Numero1 = int(input("Inserisci il numero INTERO che vuoi convertire: "))
-if not(Numero1.isnumeric()):
-    print("Devi inserire un numero...")
-    quit()
-
+while True:
+    try:
+        Numero1 = int(input("Inserisci il numero INTERO che vuoi convertire: "))
+        break
+    except ValueError:
+        print("Te pare un numero?")
+        
 Numero1 = str(Numero1)
 Orig = Numero1
 Numero1lista = []
