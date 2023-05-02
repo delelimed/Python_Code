@@ -13,8 +13,20 @@ Numero1Decimale = 0
 Numero2 = " "
 Numero2lista = []
 
-B1 = int(input("Inserisci la base di partenza: "))
-B2 = int(input("Inserisci la base di arrivo: "))
+while True:
+    try:
+        B1 = int(input("Inserisci la base di partenza: "))
+        break
+    except ValueError:
+        print("Te pare un numero?")
+        
+while True:
+    try:
+        B2 = int(input("Inserisci la base di arrivo: "))
+        break
+    except ValueError:
+        print("Te pare un numero?")
+        
 Finale = " "
 VOID = None
 
