@@ -1,6 +1,6 @@
 '''
 Questo programma prende un numero in ingresso, chiede la base di partenza e lo converte in una base di arrivo.
-Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione.
+Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione...
 '''
 while True:
     try:
