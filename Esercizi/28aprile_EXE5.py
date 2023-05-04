@@ -13,6 +13,6 @@ print("Hai fornito la seguente lista: " + str(ItmList))
 
 NSWAP = int(input("Di quanti passi vuoi eseguire lo SWAP? "))
 for k in range(NSWAP):
-    tempy = ItmList.pop(0) #tempy è variabile temporanea su cui salvo il numero in corso di swap
+    tempy = ItmList.pop(0) #tempy è 5variabile temporanea su cui salvo il numero in corso di swap
     ItmList.append(tempy)
 print("La nuova lista di " + str(NItm) + " elementi è la seguente: " + str(ItmList))
