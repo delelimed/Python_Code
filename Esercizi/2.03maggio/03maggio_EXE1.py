@@ -60,7 +60,7 @@ def controlloutil(N:int, B1:int, B2:int) -> bool:
     tempy = 0
     N_List = []
     for i in range(len(N)):
-        N_List.append(Numero1[tempy])
+        N_List.append(N[tempy])
         tempy += 1
 
     if B1 == B2:
