@@ -1,6 +1,7 @@
 '''
 Questo programma prende un numero in ingresso, chiede la base di partenza e lo converte in una base di arrivo.
-Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione...
+Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione.
+Stesso di 27aprile_EXE7, ma con l'implementazione delle funzioni.
 '''
 
 def num2dec(Numero, B1) -> str:
