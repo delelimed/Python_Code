@@ -72,30 +72,32 @@ def controlloutil(N:int, B1:int, B2:int) -> bool:
     return VOID
 
 
+def main():
+    Numero1 = str(isnum(show="Inserisci il numero INTERO che vuoi convertire: "))
+    Orig = Numero1
+    Numero1lista = []
+    Numero1Decimale = 0
+    Numero2 = ""
+    B1 = int(isnum(show="Inserisci la base di partenza: "))
+    B2 = int(isnum(show="Inserisci la base di arrivo: "))
 
-Numero1 = str(isnum(show="Inserisci il numero INTERO che vuoi convertire: "))
-Orig = Numero1
-Numero1lista = []
-Numero1Decimale = 0
-Numero2 = " "
+    VOID = controlloutil(Numero1, B1, B2)
 
-B1 = int(isnum(show="Inserisci la base di partenza: "))
-B2 = int(isnum(show="Inserisci la base di arrivo: "))
-
-VOID = controlloutil(Numero1, B1, B2)
-
-if VOID == True:
-    print("Attenzione! Il numero inserito o la base di partenza sono errate, oppure la base di partenza coincide con quella di arrivo!")
-    quit()
+    if VOID == True:
+        print("Attenzione! Il numero inserito o la base di partenza sono errate, oppure la base di partenza coincide con quella di arrivo!")
+        quit()
 
 
 # effettua, come prima cosa, la conversione in base 10
-if B1 != 10:
-    Numero1Decimale = num2dec(Numero1, B1)
+    if B1 != 10:
+        Numero1Decimale = num2dec(Numero1, B1)
 
-if B1 == 10:
-    Numero1Decimale = Orig
+    if B1 == 10:
+        Numero1Decimale = Orig
 
 
-print("Il numero " + str(Numero1) + " in base " + str(B1) + " equivale al numero " + str(numconverter(Numero1Decimale, B2)) +
+    print("Il numero " + str(Numero1) + " in base " + str(B1) + " equivale al numero " + str(numconverter(Numero1Decimale, B2)) +
       " convertito in base " + str(B2))
+
+if __name__ == "__main__":
+    main()
