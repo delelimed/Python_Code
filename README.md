@@ -11,9 +11,11 @@ Insieme dei sorgenti .py riguardo le esercitazioni svolte durante le lezioni, di
 ## Seconda Lezione - 28 aprile
 - SecondaLezione.py: genera una lista di 10 elementi, prima ne toglie alcuni, poi la rigenera e la inverte
 
-## Terza Lezione - 03 maggio
+## Quarta Lezione - 05 maggio
 - Funzioni ricorsive [CODE](./3.05maggio/power_recursive.py): una funzione che chiama sè stessa fino a che non trova modo di uscire
 - Funzioni e pacchetti [CODE](./3.05maggio): come aggiungere funzioni alla SPL
+
+## Quinta Lezione - 10 maggio
 
 
 ## Elenco esercizi svolti
