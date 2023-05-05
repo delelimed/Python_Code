@@ -3,6 +3,10 @@ Questo programma prende un numero in ingresso, chiede la base di partenza e lo c
 Come prima cosa converte il numero come intermezzo decimale, poi lo converte nella base di destinazione.
 Stesso di 27aprile_EXE7, ma con l'implementazione delle funzioni.py.
 '''
+#modules import
+from tkinter import *
+from tkinter.ttk import *
+
 
 def num2dec(Numero, B1) -> str:
     '''
@@ -100,4 +104,9 @@ def main():
       " convertito in base " + str(B2))
 
 if __name__ == "__main__":
-    main()
+    root = Tk()
+    root.title("Convertitore di basi")
+    root.geometry("500x500")
+    root.resizable(False, False)
+    root.mainloop()
+    # integro il codice del programma in tkinter
