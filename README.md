@@ -16,6 +16,7 @@ Insieme dei sorgenti .py riguardo le esercitazioni svolte durante le lezioni, di
 - Funzioni e pacchetti [CODE](./3.05maggio): come aggiungere funzioni alla SPL
 
 ## Quinta Lezione - 10 maggio
+- Funzioni ricorsive, nuovo approfondimento
 
 
 ## Elenco esercizi svolti
