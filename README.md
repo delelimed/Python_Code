@@ -19,6 +19,11 @@ Insieme dei sorgenti .py riguardo le esercitazioni svolte durante le lezioni, di
 - Funzioni ricorsive, nuovo approfondimento
 
 
+## Sesta Lezione - 17 maggio
+- Gestione delle eccezioni [Codice](./6.17Maggio%20-%20Lambda/info.py)
+- Funzioni Lambda
+
+
 ## Elenco esercizi svolti
 | **Nome File**                                           | **Data lezione** | **Descrizione**                                                                                                                                                                                                            |
 |---------------------------------------------------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

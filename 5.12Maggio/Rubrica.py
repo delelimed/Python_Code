@@ -13,7 +13,9 @@ class Contatto:
 
 
 if __name__ == "__main__":
-    Rubrica =[Contatto("mario", "123"),Contatto("mario", "")]
+    Rubrica =[Contatto("mario", "123"),Contatto("andrea", "456"), Contatto("prova", "789")]
+    Rubrica.sort(key = lambda x: c.nome)
+    print(Rubrica)
 
     while True:
         nome = input("Inserisci il nome: ")
