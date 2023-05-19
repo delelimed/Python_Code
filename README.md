@@ -26,6 +26,10 @@ Insieme di file contenenti le operazioni ed i comandi base per alcune semplici a
 - Gestione delle eccezioni [Codice](./6.17Maggio%20-%20Lambda/info.py)
 - Funzioni Lambda
 
+## Settima Lezione - 19 maggio
+- Dati: come salvarli su file;
+- il modulo os
+
 
 ## Elenco esercizi svolti
 | **Nome File**                                           | **Data lezione** | **Descrizione**                                                                                                                                                                                                            |
