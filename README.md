@@ -30,6 +30,10 @@ Insieme di file contenenti le operazioni ed i comandi base per alcune semplici a
 - Dati: come salvarli su file;
 - il modulo os
 
+## Ottava Lezione - 24 maggio
+- concetto di ereditarietà tra classi;
+- classi e sottoclassi
+
 
 ## Elenco esercizi svolti
 | **Nome File**                                           | **Data lezione** | **Descrizione**                                                                                                                                                                                                            |
